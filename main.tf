@@ -24,7 +24,7 @@ variable "instance_type" {
 resource "aws_vpc" "vpcByTFE" {
   cidr_block  = "10.0.0.0/16"
   	tags = {
-		Name = "(cpg(-test)"
+		Name = ")(cpg(-test)("
 	}
 }
 resource "aws_subnet" "subnetByTFE" {
